@@ -1,0 +1,91 @@
+
+{
+    "disallowEmptyBlocks": true,
+    "disallowFunctionDeclarations": true,
+    "disallowImplicitTypeConversion": [
+        "binary",
+        "string"
+    ],
+    "disallowKeywordsOnNewLine": [
+        "catch",
+        "else",
+        "finally"
+    ],
+    "disallowMixedSpacesAndTabs": true,
+    "disallowMultipleLineBreaks": true,
+    "disallowMultipleLineStrings": true,
+    "disallowMultipleVarDecl": true,
+    "disallowQuotedKeysInObjects": true,
+    "disallowSpaceAfterObjectKeys": true,
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+    "disallowSpaceBeforePostfixUnaryOperators": true,
+    "disallowSpacesInCallExpression": true,
+    "disallowSpacesInFunctionDeclaration": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInsideArrayBrackets": true,
+    "disallowSpacesInsideObjectBrackets": true,
+    "disallowSpacesInsideParentheses": true,
+    "disallowTrailingComma": true,
+    "disallowTrailingWhitespace": true,
+    "disallowYodaConditions": true,
+    "requireAnonymousFunctions": true,
+    "requireBlocksOnNewline": true,
+    "requireCapitalizedConstructors": true,
+    "requireCommaBeforeLineBreak": true,
+    "requireCurlyBraces": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "try",
+        "catch"
+    ],
+    "requireDotNotation": true,
+    "requireLineFeedAtFileEnd": true,
+    "requirePaddingNewLinesInObjects": true,
+    "requireParenthesesAroundIIFE": true,
+    "requireSpaceAfterBinaryOperators": true,
+    "requireSpaceAfterKeywords": [
+        "catch",
+        "do",
+        "else",
+        "finally",
+        "for",
+        "if",
+        "switch",
+        "try",
+        "while",
+        "with"
+    ],
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpaceBeforeBlockStatements": true,
+    "requireSpaceBeforeKeywords": [
+        "catch",
+        "else",
+        "finally",
+        "while"
+    ],
+    "requireSpaceBeforeObjectValues": true,
+    "requireSpacesInConditionalExpression": {
+        "afterConsequent": true,
+        "afterTest": true,
+        "beforeAlternate": true,
+        "beforeConsequent": true
+    },
+    "requireSpacesInFunctionDeclaration": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "safeContextKeyword": "self",
+    "validateIndentation": 4,
+    "validateLineBreaks": "LF",
+    "validateParameterSeparator": ", ",
+    "validateQuoteMarks": "'"
+}

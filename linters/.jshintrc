@@ -1,0 +1,29 @@
+{
+    "browser": true,
+    "camelcase": true,
+    "curly": true,
+    "devel": true,
+    "eqeqeq": true,
+    "esnext": true,
+    "globals": {
+        "angular": false,
+        "module": false,
+        "require": false,
+        "Sha1": false
+    },
+    "immed": true,
+    "indent": 4,
+    "jquery": true,
+    "latedef": true,
+    "maxerr": 100,
+    "noarg": true,
+    "node": true,
+    "nonbsp": true,
+    "nonstandard": true,
+    "plusplus": true,
+    "quotmark": "single",
+    "strict": true,
+    "sub": true,
+    "undef": true,
+    "unused": true
+}
