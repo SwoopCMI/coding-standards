@@ -28,13 +28,7 @@
     },
     "parser": "babel-eslint",
     "rules": {
-        "accessor-pairs": [
-            1,
-            {
-                "getWithoutSet": false,
-                "setWithoutGet": true
-            }
-        ],
+        "accessor-pairs": 0,
         "block-scoped-var": 2,
         "brace-style": [
             2,
