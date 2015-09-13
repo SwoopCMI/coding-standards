@@ -44,10 +44,7 @@
                 "singleValue": false
             }
         ],
-        "arrow-parens": [
-            2,
-            "always"
-        ],
+        "arrow-parens": 0,
         "arrow-spacing": [
             2,
             {
@@ -150,7 +147,7 @@
             2,
             4,
             {
-                "SwitchCase": true,
+                "SwitchCase": 1,
                 "VariableDeclarator": 0
             }
         ],
@@ -166,7 +163,6 @@
             2,
             {
                 "afterColon": true,
-                "align": false,
                 "beforeColon": false
             }
         ],
@@ -183,7 +179,7 @@
         "new-cap": [
             2,
             {
-                "capIsNew": true,
+                "capIsNew": false,
                 "capIsNewExceptions": [],
                 "newIsCap": true,
                 "newIsCapExceptions": []
@@ -239,7 +235,7 @@
             "both"
         ],
         "no-invalid-regexp": 2,
-        "no-invalid-this": 2,
+        "no-invalid-this": 0,
         "no-irregular-whitespace": 2,
         "no-iterator": 2,
         "no-label-var": 2,
@@ -300,13 +296,7 @@
         "no-script-url": 2,
         "no-self-compare": 2,
         "no-sequences": 2,
-        "no-shadow": [
-            2,
-            {
-                "builtinGlobals": false,
-                "hoist": "all"
-            }
-        ],
+        "no-shadow": 0,
         "no-shadow-restricted-names": 2,
         "no-spaced-func": 2,
         "no-sparse-arrays": 2,
@@ -469,7 +459,7 @@
         "react/sort-comp": 0,
         "react/wrap-multilines": 0,
         "require-jsdoc": 0,
-        "require-yield": 2,
+        "require-yield": 0,
         "semi": [
             2,
             "always"
