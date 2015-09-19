@@ -280,7 +280,7 @@
         "no-redeclare": [
             2,
             {
-                "builtinGlobals": true
+                "builtinGlobals": false
             }
         ],
         "no-regex-spaces": 2,
@@ -509,7 +509,7 @@
         ],
         "spaced-comment": [
             2,
-            "never"
+            "always"
         ],
         "strict": [
             2,
